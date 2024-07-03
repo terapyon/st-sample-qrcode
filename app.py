@@ -3,7 +3,7 @@ import streamlit as st
 import qrcode
 
 
-st.title("QRコード生成アプリ")
+st.title("QRコード生成アプリ・改造")
 text = st.text_input("QRコードに変換したい文字列を入力してください")
 if text and st.button("QRコードを生成する"):
     with BytesIO() as output:
